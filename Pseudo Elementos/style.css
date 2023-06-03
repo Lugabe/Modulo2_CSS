@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* input{
+   border:  1px solid red;
+}
+
+input::placeholder{
+    color: rgb(227, 6, 43);
+}
+p{
+    color: blue;
+}
+p::first-letter{
+    color: rgb(42, 40, 2);
+}
+p::first-line{
+    color: chocolate;
+} */
+
+a{
+    color: blue;
+}
+a::before{
+    content: "==>";
+}
+a::after{
+    content: "<==";
+}
+ 
